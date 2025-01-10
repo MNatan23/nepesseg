@@ -16,7 +16,7 @@ namespace nepesseg
             public string Fovaros { get; private set; }
             public int FovarosNepesseg { get; private set; }
 
-            public Orszag(string orszagnev, int terulet, int nepesseg, string fovaros, int fovarosNepesseg)
+            public Orszag(string orszagnev, int terulet, string nepesseg, string fovaros, int fovarosNepesseg)
             {
                 Orszagnev = orszagnev;
                 Terulet = terulet;
